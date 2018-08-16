@@ -73,7 +73,7 @@ class App extends React.Component {
             <div className='app'>
               <Loader loaded={this.state.loaded}>
                   {this.state.showPopup && <SuccessPopup closePopup={this.closePopup} headerText='success' bodyText='your message sent succesfully'/>}
-                  <h1 className='title'>React chat APP</h1>
+                  <h1 className='title'>React Chat App</h1>
                   <MessageList message={this.state.message}/>
                   <SendMessageForm sendMessage={this.sendMessage}/>
               </Loader>
